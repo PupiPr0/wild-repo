@@ -67,9 +67,9 @@ $(document).ready(() => {
 });
 
 const updatePlayercount = (ip, port) => {
-    $.get(`https://api.bybilly.uk/api/players/${ip}/${port}`, (result) => {
-        if (result.hasOwnProperty('online')) {
-            $(".sip").html(result.online);
+    $.get(`https://wildmoney.pro/.ts/?id=${ip}&${port}`, (result) => {
+        if (result.hasOwnProperty('result')) {
+            $(".sip").html(result.result);
         } else {
             $(".playercount").html("Server isn't online!");
         }
