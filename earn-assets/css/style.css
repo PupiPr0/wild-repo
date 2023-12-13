@@ -741,7 +741,7 @@ section#about-us {
 }
 
 section#about-us .about-image {
-    background: url('../images/img/about-img.jpg');
+    background: url('https://repo-main.wildmoney.pro/earn-assets/stats/123456.jpg');
     background-size: cover;
     min-height: 440px;
     z-index: 1;
