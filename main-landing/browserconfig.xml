@@ -1,1 +1,12 @@
-
+<?xml version="1.0" encoding="UTF-8"?>
+<browserconfig>
+ <msapplication>
+  <tile>
+   <TileColor>#000000</TileColor>
+   <square70x70logo src="https://repo-main.wildmoney.pro/main-landing/msapplication-square70x70logo.png"/>
+   <square150x150logo src="https://repo-main.wildmoney.pro/main-landing/msapplication-square150x150logo.png"/>
+   <wide310x150logo src="https://repo-main.wildmoney.pro/main-landing/msapplication-wide310x150logo.png"/>
+   <square310x310logo src="https://repo-main.wildmoney.pro/main-landing/msapplication-square310x310logo.png"/>
+  </tile>
+ </msapplication>
+</browserconfig>
