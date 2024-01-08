@@ -1,0 +1,56 @@
+// 
+// general.scss
+// 
+body {
+    overflow-x: hidden;
+    max-width: 1300px;
+    margin: 0 auto;
+    font-size: 14.4px;
+    color: $dark;
+    font-family: $font-family-primary;
+    line-height: 1.6;
+    letter-spacing: 0.03rem;
+    box-shadow: 0 2px 12px 6px rgba($dark,0.04);
+}
+
+
+
+html {
+    background-color: $dark;
+    background: url("../images/body-bg.jpg");
+    background-size: cover;
+}
+
+::selection{
+    background: rgba(151, 160, 175, 0.3);
+}
+
+::-moz-selection {
+    background: rgba(151, 160, 175, 0.3);
+}
+  
+a,a:hover {
+    text-decoration: none !important;
+    outline: none !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: $dark;
+    font-family: $font-family-primary;
+    font-weight: $font-weight-semibold;
+}
+    
+.row > * {
+    position: relative;
+}
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1140px;
+    }
+}

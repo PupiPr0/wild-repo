@@ -1,0 +1,28 @@
+// 
+// hero.scss
+// 
+
+.hero-img {
+    margin: 148px 0px 0px;
+    padding: 50px 0;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 4px;
+    .title-bg-overlay {
+        background-color: rgba($gray-200, 0.50);
+        border-radius: 4px;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+    }
+}
+
+// responsive
+@media(max-width:768px) {
+    .hero-img {
+        margin: 100px 0px 0px;
+    }
+}

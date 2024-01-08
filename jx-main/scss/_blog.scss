@@ -1,0 +1,80 @@
+//
+// blog.scss
+// 
+.tagcloud {
+    a {
+        background-color: $gray-200;
+        color: $dark;
+        &:hover {
+            background-color: $primary;
+            color: $white;
+        }
+    }
+}
+
+.share-on {
+    ul {
+        li {
+            a {
+                color: $dark;
+            }
+            &:hover {
+                a {
+                    color: $primary;
+                }
+            }
+        }
+    }
+}
+
+.post {
+    .date-box {
+        z-index: 1;
+        .post-preview {
+            transition: all .3s ease-out;
+            &:hover {
+                opacity: 0.7;
+            }
+        }
+        .post-title {
+            a {
+                color: $gray-800;
+                transition: all .3s ease-out;
+                &:hover {
+                    color: $primary;
+                }
+            }
+        }
+    }
+    a {
+        color: $dark;
+        &:hover {
+            color: $primary;
+        }
+    }
+}
+
+.widget {
+    .search-button {
+        position: absolute;
+        top: 0;
+        height: 100%;
+        right: 10px;
+        background-color: transparent;
+        border: none;
+        font-size: 20px;
+        -webkit-transition: all .3s ease-out;
+        transition: all .3s ease-out;
+        &.search-button:focus,
+        &.search-button.focus,
+        &.search-button.active.focus,
+        &.search-button.active:focus,
+        &.search-button:active.focus,
+        &.search-button:active:focus {
+            outline: 0;
+        }
+        &:hover {
+            color: $primary;
+        }
+    }
+}

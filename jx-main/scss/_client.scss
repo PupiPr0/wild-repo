@@ -1,0 +1,15 @@
+// 
+// client.scss
+// 
+
+.client-images {
+    img {
+        transition: all 0.4s ease-in-out;
+        opacity: 0.5;
+        &:hover {
+            opacity: 1;
+        }
+    }
+}
+
+

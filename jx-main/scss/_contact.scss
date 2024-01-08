@@ -1,0 +1,22 @@
+// 
+// contact.scss
+// 
+
+.form-control {
+    height: 45px;
+    border: 1px solid $gray-200;
+    &:focus {
+        border-color: $primary;
+        box-shadow: none;
+    }
+}
+
+.submitBnt {
+    &:hover {
+        border-color: $primary;
+        background-color: $primary;
+        color: $white;
+    }
+}
+
+

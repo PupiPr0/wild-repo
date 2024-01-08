@@ -1,0 +1,63 @@
+// product.scss
+
+.product-item {
+    .product-img {
+        img {
+            transition: all 0.3s ease-in-out;
+        }
+    }
+    .hover-content {
+        display: none;
+        .pro-icon {
+            color: $dark;
+            &:hover,
+            &.active {
+                color: $primary;
+            }
+        }        
+    }
+    &:hover {
+        .product-img {
+            img {
+                opacity: 0.4;
+            }
+        }
+        .hover-content {
+            display: block;
+        }
+    }
+}
+
+.pro-list-content {
+    .hover-content {
+        .pro-icon {
+            &:hover,
+            &.active {
+                color: $primary;
+            }
+        }
+    }
+}
+
+.pro-detail-area {
+    .nav-tabs {
+        .nav-link {            
+            color: $dark;            
+        }
+    }
+    .detail-title {
+        &.nav-tabs .nav-item.show .nav-link,
+        &.nav-tabs .nav-link.active {
+            background-color: $primary;
+            color: $white;
+        }
+    }
+}
+
+.pro-table {
+    tbody {
+        tr {
+            vertical-align: middle;
+        }
+    }
+}

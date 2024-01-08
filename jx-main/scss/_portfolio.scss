@@ -1,0 +1,65 @@
+ 
+      .filter-option {
+        li {
+          a {
+            color: $dark;
+            font-size: 13px;
+            font-weight: 500;
+            text-transform: uppercase;
+            padding: 6px 14px;
+            margin-right: 8px;
+            transition: all 0.2s ease-in-out;
+            &.active,
+            &:hover {
+              background-color: $primary;
+              color: $white;
+            }
+          } 
+          &:hover,
+          &.active {          
+              a {
+                background-color: $primary;
+                color: $white;
+                border-radius: 4px;
+              }         
+          }
+        }
+               
+      }
+
+      .filter-box {
+        display: none;
+    }
+    
+    .show {
+        display: block;
+    }
+
+
+    .work-container {
+      .card-body {
+        margin-top: 30px;
+        .content {
+          width: 100%;
+          padding: 20px;
+          position: absolute;
+          left: 0;
+          overflow: hidden;
+          display: none;
+          transform: translateY(0px);
+          transition: all 0.3s ease-in-out;
+        }
+        &:hover {
+          .content {
+            transform: translateY(-100px);    
+            display: block;
+            z-index: 2;
+          }
+        }
+      }
+    }    
+
+
+
+
+

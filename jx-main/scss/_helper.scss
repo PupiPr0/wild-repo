@@ -1,0 +1,197 @@
+// 
+// helper.scss
+// 
+@each $name,
+$value in $colors {
+    .bg-#{$name} {
+        background-color: #{$value} !important;
+    }
+    .bg-soft-#{$name} {
+        background-color: rgba(($value), 0.1) !important;
+    }
+    .text-#{$name} {
+        color: #{$value} !important;
+    } // Icons
+    .uim-icon-#{$name} {
+        .uim-svg {
+            fill: $value !important;
+        }
+    }
+}
+
+.h1, h1 {
+    font-size: 36px;
+}
+
+.h2, h2 {
+    font-size: 30px;
+}                                                                     
+
+.h4, h4 {
+    font-size: 18px;
+}
+
+.h5, h5 {
+    font-size: 14px;
+}
+
+.h6, h6 {
+    font-size: 12px;
+}
+
+// font-size
+.fs-12 {
+    font-size: 12px;
+}
+.fs-13 {
+    font-size: 13px;
+}
+.fs-14 {
+    font-size: 14px;
+}
+.fs-15 {
+    font-size: 15px;
+}
+.fs-16 {
+    font-size: 16px;
+}
+.fs-17 {
+    font-size: 17px;
+}
+.fs-18 {
+    font-size: 18px;
+}
+.fs-19 {
+    font-size: 19px;
+}
+.fs-20 {
+    font-size: 20px;
+}
+.fs-21 {
+    font-size: 21px;
+}
+.fs-22 {
+    font-size: 22px;
+}
+.fs-23 {
+    font-size: 23px;
+}
+.fs-24 {
+    font-size: 24px;
+}
+
+
+.fw-medium {
+    font-weight: $font-weight-medium !important;
+}
+.fw-semibold {
+    font-weight: $font-weight-semibold !important;
+}
+
+.section {
+    padding: 60px 0px;
+}
+
+.flex-1 {
+    flex: 1 !important;
+}
+
+.page-title h2,
+.page-title h3{
+    line-height: 50px;
+    margin-top: 60px;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+
+.page-title span {
+    font-weight: 400;
+    border-bottom: 3px solid;
+}
+
+.subtitle {
+    font-weight: 300;
+    line-height: 28px;
+    font-size: 16px;
+}
+
+// border
+.border {
+   border: 1px solid $gray-200 !important; 
+}
+.border-top {
+    border-top: 1px solid $gray-200 !important;
+}
+
+.border-bottom {
+    border-bottom: 1px solid $gray-200 !important;
+}
+
+// rounded
+.rounded-lg {
+    border-radius: $border-radius-lg;
+}
+
+// card
+.card {
+    border: none !important;
+}
+
+// shadow
+
+.shadow {
+    box-shadow: 1px 1px 7px 0px rgba(0, 18, 51, 0.09) !important;
+}
+
+.section-title{
+    padding-left: 30px;
+}
+
+
+.dropdown-menu {
+    font-size: 14.4px;
+    border: 1px solid $gray-200 !important; 
+}
+
+// breadcrumbs
+.breadcrumb {
+    .breadcrumb-item {
+        a {
+            color: $dark;            
+        }
+        &.active {
+            color: $primary !important;
+        }
+    }
+}
+
+.brand-section {
+    padding: 0px 0px 60px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,25 @@
+// pagination.scss
+
+.pagination {
+    .page-item {
+        display: inline-block;
+        margin: 5px 6px 0 0;
+        .page-link {
+            border: 1px solid $gray-200;
+            border-radius: 3px;
+            color: $dark;
+            display: block;
+            float: none;
+            padding: 8px 15px;
+                &.active,
+                &:focus,
+                &:hover {           
+                    z-index: 3;
+                    color: $white;
+                    background-color: $primary;
+                    border-color: $primary;                
+            }       
+        }         
+    }    
+}
+

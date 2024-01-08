@@ -1,0 +1,8 @@
+// form.scss
+
+.form-select {
+    &:focus {
+        box-shadow: none;
+        border-color: rgba($primary, 0.4);
+    }
+}

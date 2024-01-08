@@ -1,0 +1,34 @@
+// 
+// footer.scss
+//
+
+.footer-list {
+  
+        li {
+            a {
+                color: $muted !important;
+                &:hover {
+                    color: $primary !important;
+                }
+            }
+        }
+    
+}
+
+
+.social-circle {
+    li {
+        a {
+            height: 34px;
+            width: 34px;
+            color: rgba($white, 0.9) !important;
+            background-color: rgba($white, 0.06);
+            transition: all 0.3s ease-in-out;
+            &:hover {
+                background-color: rgba($white, 0.1);
+                color: $white !important;
+            }
+        }
+    }
+}
+
