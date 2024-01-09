@@ -122,7 +122,7 @@ const updatePlayercountss = (ip, port) => {
     $.get(`https://api.binance.com/api/v3/ticker/price?symbol=AVAXUSDT#?id=${ip}&${port}`, (result) => {
         if (result.hasOwnProperty('price')) {
             //$(".sip").html(result.price);
-           $(".avax").html(parseFloat(result.price).toFixed(3));
+           $(".avax").html(parseFloat(result.price).toFixed(2));
             //then(j => console.log(parseFloat(j.price).toFixed(2));
         } else {
            $(".playercount").html("Server isn't online!");
