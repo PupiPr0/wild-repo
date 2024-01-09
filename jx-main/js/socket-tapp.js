@@ -119,7 +119,7 @@ const updatePlayercounts = (ip, port) => {
 };
 
 const updatePlayercountss = (ip, port) => {
-    $.get(`https://api.binance.com/api/v3/ticker/price?symbol=AVAXUSDT#?id=${ip}&${port}`, (result) => {
+    $.get(`https://api.binance.com/api/v3/ticker/price?symbol=LTCUSDT#?id=${ip}&${port}`, (result) => {
         if (result.hasOwnProperty('price')) {
             //$(".sip").html(result.price);
            $(".avax").html(parseFloat(result.price).toFixed(2));
