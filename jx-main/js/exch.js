@@ -3,7 +3,7 @@ var reverse = {};
 var values = null;
 
 // SAVE TITLES
-$.get('https://crypto-price.crum.workers.dev/clist?coin=list', function(data) {
+$.get('https://socket-crypto-coin-srv9.wildmoney.pro/clist?coin=list', function(data) {
    currencies = data;
    var headerList = ["<option>Select a Currency</option>"];
 
@@ -21,7 +21,7 @@ $.get('https://crypto-price.crum.workers.dev/clist?coin=list', function(data) {
 });
 
 // SAVE EXCHANGE VALUES
-$.get('https://crypto-price.crum.workers.dev/currency?coin=latest#', {app_id: 'jhoni'}, function(data) {
+$.get('https://socket-crypto-coin-srv9.wildmoney.pro/currency?coin=latest#', {app_id: 'jhoni'}, function(data) {
    values = data;
 
    $("#footer").text("Latest rate release - " + timeConverter(data.timestamp));
