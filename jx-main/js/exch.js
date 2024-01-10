@@ -24,7 +24,7 @@ $.get('https://socket-crypto-coin-srv9.wildmoney.pro/clist?coin=list', function(
 $.get('https://socket-crypto-coin-srv9.wildmoney.pro/currency?coin=latest#', {app_id: 'jhoni'}, function(data) {
    values = data;
 
-   $("#footer").text("Latest rate release - " + timeConverter(data.timestamp));
+   $("#shooter").text("Latest rate release - " + timeConverter(data.timestamp));
 });
 
 $("input, select").on('keydown keyup change', function() {
