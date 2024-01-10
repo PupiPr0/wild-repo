@@ -21,10 +21,10 @@
                             <li class="nav-item">
                                 <a class="nav-link sub-menu-item" href="trade-app">Trading App</a>
                             </li>
-                            <!--li class="nav-item">
-                                <a class="nav-link sub-menu-item" href="product-detail.html">Product Details</a>
-                            </li>
                             <li class="nav-item">
+                                <a class="nav-link sub-menu-item" href="market-clock">Market Clock</a>
+                            </li>
+                            <!--li class="nav-item">
                                 <a class="nav-link sub-menu-item" href="checkout.html">Checkout</a>
                             </li>
                             <li class="nav-item">
