@@ -46,6 +46,9 @@
                             <li class="nav-item">
                                 <a class="nav-link sub-menu-item" href="/apps/runcat">RunCat</a>
                             </li>
+                            <li class="nav-item">
+                                <a class="nav-link sub-menu-item" href="/apps/calend">Calend</a>
+                            </li>
                         </ul>
                     </li>
 
