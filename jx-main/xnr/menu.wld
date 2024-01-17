@@ -37,7 +37,7 @@
                         <a class="nav-link menu-item dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">App's</a>
                         <ul class="dropdown-menu ms-3">
                             <li class="nav-item">
-                                <a class="nav-link sub-menu-item" href="apps/diary">Mini Diary</a>
+                                <a class="nav-link sub-menu-item" href="/apps/diary">Mini Diary</a>
                             </li>
                             <!---li class="nav-item">
                                 <a class="nav-link sub-menu-item" href="work-detail.html">Work Detail</a>
