@@ -49,6 +49,9 @@
                             <li class="nav-item">
                                 <a class="nav-link sub-menu-item" href="/apps/calend">Calend</a>
                             </li>
+                            <li class="nav-item">
+                                <a class="nav-link sub-menu-item" href="/apps/wallpaper-macos">WallPaper</a>
+                            </li>
                         </ul>
                     </li>
 
