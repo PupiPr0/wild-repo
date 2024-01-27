@@ -1,3 +1,3 @@
 $(function(){
-      $("#wild-head").load("https://repo-main.wildmoney.pro/jx-main/xnr/photo.wild");
+      $("#wild-ph").load("https://repo-main.wildmoney.pro/jx-main/xnr/ph.wild");
 });
