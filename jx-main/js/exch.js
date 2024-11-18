@@ -21,7 +21,7 @@ $.get('https://socket-crypto-coin-srv9.wildmoney.pro/clist?coin=list', function(
 });
 
 // SAVE EXCHANGE VALUES
-$.get('https://socket-crypto-coin-srv9.wildmoney.pro/currency?coin=latest#', {app_id: 'jhoni'}, function(data) {
+$.get('https://socket-server-usa4-ping.dkon.app/currency?coin=latest#', {app_id: 'jhoni'}, function(data) {
    values = data;
 
    $("#shooter").text(timeConverter(data.timestamp));
