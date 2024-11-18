@@ -3,7 +3,7 @@ var reverse = {};
 var values = null;
 
 // SAVE TITLES
-$.get('https://socket-crypto-coin-srv9.wildmoney.pro/clist?coin=list', function(data) {
+$.get('https://socket-server-usa4-ping.dkon.app/clist?coin=list', function(data) {
    currencies = data;
    var headerList = ["<option>Select a Currency</option>"];
 
