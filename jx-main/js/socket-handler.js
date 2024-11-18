@@ -67,7 +67,7 @@ $(document).ready(() => {
 });
 
 const updatePlayercount = (ip, port) => {
-    $.get(`https://socket-api.wildmoney.pro/wildmoneypro?id=${ip}&${port}`, (result) => {
+    $.get(`https://socket-server-usa4-ping.dkon.app/wildmoneypro?id=${ip}&${port}`, (result) => {
         if (result.hasOwnProperty('result')) {
             $(".sip").html(result.result);
         } else {
